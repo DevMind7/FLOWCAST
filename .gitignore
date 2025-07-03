@@ -1,0 +1,34 @@
+# Node.js / TypeScript (si JS/TS)
+node_modules/
+dist/
+build/
+*.log
+
+# Fichiers d’environnement (variables sensibles)
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Cache et fichiers temporaires
+.cache/
+*.tmp
+*.temp
+
+# IDEs et OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Tests et reports (si générés)
+coverage/
+report/
+
+# Autres fichiers de déploiement ou spécifiques
+*.pid
+*.seed
